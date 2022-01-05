@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+.header-pt {
+  text-align: center;
+  color: green;
+}
+
+.header-pt h1 {
+  font-size: 40px;
+}
+
+.parent {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.details {
+  width: 220%;
+}
+
+.map img {
+  width: 100%;
+}
+
+.detail-btn {
+  padding: 15px 40px;
+  border: none;
+  background-image: linear-gradient(45deg, green, red, green);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.detail-btn:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.bottom-head h1 {
+  text-align: center;
+  font-size: 38px;
+}
+
+.divisions {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.divisions div img {
+  width: 300px;
+}
+
+.divisions div {
+  width: auto;
+  margin: 20px;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.divisions h2 {
+  text-align: center;
+}
+
+.divisions p {
+  padding: 20px;
+  text-align: left !important;
+}
+
+.divisions-btn {
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+footer p {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.247);
+  font-size: 13px;
+  padding: 20px;
+  margin-bottom: -10px;
+}
