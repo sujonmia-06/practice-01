@@ -57,12 +57,15 @@ body {
 
 .divisions div img {
   width: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .divisions div {
   width: auto;
-  margin: 20px;
+  margin: 40px;
   box-shadow: 5px 5px 20px gray;
+  border-radius: 5px;
 }
 
 .divisions h2 {
@@ -72,14 +75,21 @@ body {
 .divisions p {
   padding: 20px;
   text-align: left !important;
+  margin-top: -20px;
 }
 
 .divisions-btn {
+  position: static;
   padding: 10px 20px;
   background-color: green;
   border: none;
   border-radius: 3px;
-  margin: 20px;
+  margin: 0 0 20px 0;
+}
+
+.divisions-btn:hover {
+  background-color: red;
+  color: white;
 }
 
 footer p {
